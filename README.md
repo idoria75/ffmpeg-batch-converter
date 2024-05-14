@@ -15,11 +15,10 @@ Este comando deve exibir a versão do FFmpeg e algumas informações de configur
 ### Editar os Caminhos do Script
 
 Abra o arquivo de script .bat em um editor de texto de sua preferência.
-Localize as linhas que definem SOURCE_DIR e OUTPUT_DIR. Estas linhas definem os caminhos das pastas de entrada e saída, respectivamente.
+Localize a linha que define SOURCE_DIR, ela define o caminho da pasta de entrada:.
 
 ```batch
-set "SOURCE_DIR=C:\Users\ivanp\Desktop\ffmpeg_test\input"
-set "OUTPUT_DIR=C:\Users\ivanp\Desktop\ffmpeg_test\output"
+set "SOURCE_DIR=C:\Usuarios\..."
 ```
 
 Modifique os caminhos após SOURCE_DIR= e OUTPUT_DIR= para os diretórios que você deseja usar como sua pasta de entrada e saída. Certifique-se de que os caminhos estão corretos e que as pastas existem. Se a pasta de saída não existir, o script tentará criar uma.

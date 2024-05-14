@@ -5,7 +5,7 @@ rem Hora de inicio
 set "START_TIME=%TIME%"
 
 rem Pasta de origem contendo os arquivos MP4 originais
-set "SOURCE_DIR=C:\Users\ivanp\Desktop\ffmpeg_test\input"
+set "SOURCE_DIR=C:\Usuarios\..."
 
 rem Pasta de destino onde os arquivos compactados serao salvos
 set "OUTPUT_DIR=%SOURCE_DIR%\..\output"
