@@ -1,4 +1,4 @@
-# Instruções para Usar o Script de Compressão de Vídeo com FFmpeg
+# Script de Compressão de Vídeo em lote usando FFmpeg
 
 ## Pré-requisitos
 
