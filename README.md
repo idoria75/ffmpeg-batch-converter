@@ -41,7 +41,7 @@ Você pode alterar esse valor diretamente no script ou passar um valor diferente
 
 Pressione Win + R, digite cmd e pressione Enter para abrir o Prompt de Comando.
 
-Navegar até o Diretório do Script:
+## Navegar até o Diretório do Script:
 
 Use o comando cd para navegar até o diretório onde o arquivo .bat está salvo. Por exemplo:
 
