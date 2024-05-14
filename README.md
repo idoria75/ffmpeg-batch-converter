@@ -21,7 +21,7 @@ Localize a linha que define SOURCE_DIR, ela define o caminho da pasta de entrada
 set "SOURCE_DIR=C:\Usuarios\..."
 ```
 
-Modifique os caminhos após SOURCE_DIR= e OUTPUT_DIR= para os diretórios que você deseja usar como sua pasta de entrada e saída. Certifique-se de que os caminhos estão corretos e que as pastas existem. Se a pasta de saída não existir, o script tentará criar uma.
+Modifique o caminho após SOURCE_DIR= para o diretório que você deseja usar como sua pasta de entrada (aonde ficam os vídeos). Certifique-se de que o caminhos está correto e que a pasta existe.
 
 ### Ajustar o Fator de Compressão (CRF)
 
@@ -54,13 +54,13 @@ cd C:\Users\ivanp\Desktop\ffmpeg_test
 Você pode executar o script diretamente se estiver satisfeito com o CRF padrão:
 
 ```cmd
-nome_do_script.bat
+script_conversao.bat
 ```
 
 Para especificar um valor de CRF diferente ao executar o script, passe o valor como o primeiro argumento:
 
 ```cmd
-nome_do_script.bat 28
+script_conversao.bat 28
 ```
 
 ## Observações Finais
